@@ -1,0 +1,36 @@
+.contact-box {
+    background-color: $vampire-black;
+    padding: 3rem;
+    margin-bottom: 1rem;
+
+    i {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        margin: auto;
+        background-color: $light-french-beige;
+        padding: 1rem;
+    }
+}
+
+.contact-box {
+    .fa-location-dot:before,
+    .fa-phone:before,
+    .fa-envelope:before {
+        font-size: 3rem;
+    }
+}
+
+
+.contact-box-title {
+    text-align: center;
+    margin-top: 1rem;
+    color: $light-french-beige;
+}
+
+.contact-box-desc {
+    text-align: center;
+    color: $white;
+    line-height: 4px;
+    margin-top: 1rem;
+}

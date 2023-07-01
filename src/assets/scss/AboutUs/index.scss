@@ -1,0 +1,23 @@
+.filter-color {
+    filter: invert(72%) sepia(8%) saturate(1442%) hue-rotate(358deg) brightness(86%) contrast(90%);
+}
+
+.about-icon-main {
+    margin-bottom: 1.5rem;
+}
+
+.about-icon-main img {
+    float: left;
+    width:70px;
+    margin-right: 0.5rem;
+}
+
+.about-icon-main-content {
+    color: $white;
+}
+
+
+.about-img-width {
+    width: 100%;
+    padding: 0.5rem;
+}

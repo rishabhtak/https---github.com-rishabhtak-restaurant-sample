@@ -1,0 +1,39 @@
+.card-review {
+   // width: 50%;
+    display: block;
+    margin: 10px;
+    background-color: $chinese-black;
+    padding: 3rem;
+}
+
+.card-review-img img {
+    width: 80px;
+    float: left;
+}
+
+.card-review-title {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: $white;
+    text-transform: capitalize;
+}
+
+.card-review-title p {
+    line-height: 10px;
+    color: $light-french-beige;
+}
+
+
+.card-review-content {
+    margin-top: 2rem;
+    color: $white;
+}
+
+.card-review-star {
+    margin-top: 1rem;
+}
+
+.card-review-star i {
+    color: $light-french-beige;
+}

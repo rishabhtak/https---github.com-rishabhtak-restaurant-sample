@@ -1,0 +1,39 @@
+.filter-color {
+    filter: invert(72%) sepia(8%) saturate(1442%) hue-rotate(358deg) brightness(86%) contrast(90%);
+}
+
+.card-style {
+    position: relative;
+    background: #101418;
+    color: $white;
+    border-color: $white ;
+    border-style: solid;
+    border-radius: none;
+
+    img {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+.card-style:after {
+    content: "";
+    width: calc(100% - 20px);
+    height: calc(100% + 24px);
+    position: absolute;
+    top: -12px;
+    right: 10px;
+    border: 1px solid white;
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.card-style:hover:after {
+    opacity: 1;
+}
+
+.card {
+    --bs-card-border-radius: none;
+}
+
+

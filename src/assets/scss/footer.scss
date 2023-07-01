@@ -1,0 +1,134 @@
+.logo-content {
+    margin-bottom: 2rem;
+}
+
+
+.logo-content-img img {
+    width: 80%;
+}
+
+.logo-content-info {
+    letter-spacing: 1px;
+}
+
+.logo-content-icon,
+.logo-content-info {
+    margin-top: 2rem;
+}
+
+
+.logo-content-icon a {
+    padding: 1rem;
+    margin: 0.2rem;
+    background-color: $vampire-black;
+}
+
+
+.usefull-link-section {
+    margin-left: 2rem;
+}
+
+.usefull-link-title {
+    margin-bottom: 2rem;
+}
+
+.usefull-link-url,
+.contact-section-url,
+.opening-hours-time {
+    margin-left: -2rem;
+}
+
+
+.usefull-link-url a,
+.contact-section-url a {
+    text-decoration: none;
+
+}
+
+.usefull-link-url li {
+    margin: 1rem;
+}
+
+.usefull-link-title,
+.logo-content-info,
+.contact-section,
+.opening-hours-section {
+    color: $white;
+}
+
+
+.contact-section-title {
+    margin-bottom: 2rem;
+
+}
+
+.contact-section-url {
+    list-style-type: none;
+}
+
+
+.contact-section-url li i {
+    color: $light-french-beige;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.opening-hours-time li {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.subscribe-container {
+    background: $chinese-black;
+    padding: 2rem;
+}
+
+
+.subscribe-container,
+.subscribe-block {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-block img {
+    width: 55px;
+    margin-right: 1rem;
+}
+
+.subscribe-block-text,
+.subscribe-form input,
+.subscribe-form button {
+    color: $white;
+}
+
+
+
+
+.subscribe-form input {
+    width: 70%;
+    margin-right: 1rem;
+    background-color: transparent;
+    border: 1px solid $white;
+    outline: none;
+    color-scheme: dark;
+}
+
+.subscribe-form button {
+    padding: 0.8rem 2rem;
+    background-color: $light-french-beige;
+    border: 1px solid $white;
+    transition: all 0.8s;
+
+}
+
+.subscribe-form button a {
+    color: $white !important;
+}
+
+.subscribe-form button:hover {
+    background-color: transparent;
+
+}

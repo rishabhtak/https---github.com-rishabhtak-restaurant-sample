@@ -1,0 +1,59 @@
+.chef-img-carousel {
+    position: relative;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.chef-img-carousel img {
+    width: 100%;
+}
+
+
+.chef-portfolio {
+    position: absolute;
+    z-index: 1;
+    left: -70px;
+    top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+
+}
+
+.chef-img-carousel:hover .chef-portfolio {
+    left: 2.5rem;
+}
+
+.chef-portfolio a {
+    padding: 1rem;
+    margin: 0.2rem;
+    background-color: black;
+}
+
+
+
+.chef-details {
+    text-align: center;
+    color: $white;
+    padding-top: 16px;
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+
+}
+
+.chef-details h5 {
+    font-size: 1.8rem;
+}
+
+.chef-details p {
+    letter-spacing: 2px;
+}
+
+.react-multi-carousel-dot button {
+    width: 15px !important;
+    height: 15px !important;
+}

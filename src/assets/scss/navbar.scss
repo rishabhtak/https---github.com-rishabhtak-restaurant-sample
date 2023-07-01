@@ -1,0 +1,22 @@
+@import "variables";
+
+.icon-width {
+    position: absolute;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    z-index: 2;
+}
+
+.navbar-width {
+    position: absolute;
+    width: 90%;
+    background-color: $vampire-black;
+    z-index: 3;
+}
+
+/*.p-sticky {
+    position: fixed;
+    top: -50px;
+    z-index: 10;
+}*/

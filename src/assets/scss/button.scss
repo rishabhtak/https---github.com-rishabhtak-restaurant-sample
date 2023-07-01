@@ -1,0 +1,67 @@
+@import "variables";
+
+@mixin button-span {
+  position: absolute;
+  width: 2rem;
+  height: 1px;
+  background: $white;
+  content: "";
+  top: 50%;
+  transition: 0.8s;
+}
+
+.button {
+  background: transparent;
+  border: 1px solid $white;
+  color: $white;
+  text-align: center;
+  padding: 0.625rem;
+  width: 12rem;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  right: 2rem;
+  font-weight: lighter;
+  font-size: 1.25rem;
+  position: relative;
+  transition:all 0.8s;
+}
+
+.button span:before {
+  @include button-span;
+  left: 0.625rem;
+  opacity: 0;
+
+}
+
+
+.button span:after {
+  @include button-span;
+  right: -3.75rem;
+
+}
+
+.button:hover {
+  background-color: $light-french-beige;
+  border: 1px solid $light-french-beige;
+}
+
+.button:hover span {
+  padding-left: 4.06rem;
+  right: 0;
+
+}
+
+.button:hover span:before {
+  opacity: 1;
+}
+
+
+.button:hover span:after {
+  right: 0.625rem;
+  opacity: 0;
+}

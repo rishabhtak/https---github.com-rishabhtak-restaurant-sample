@@ -1,0 +1,78 @@
+@import "variables";
+
+.food-price-item {
+    clear: both;
+    margin-bottom: 2.81rem;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+  //  padding: 0 2.5rem;
+}
+
+.food-price-item .food-price-hoverimg img {
+    position: absolute;
+    z-index: 9;
+    width: 10rem;
+    height: 8.75rem;
+    transition: all 0.5s ease;
+    left: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    background: $vampire-black;
+}
+
+.food-price-item:hover .food-price-hoverimg img {
+    opacity: 1;
+    left: 50%;
+}
+
+
+.food-price-item .food-price-img {
+    width: 5rem;
+    float: left;
+
+}
+
+.food-price-img img {
+    max-width: 100%;
+    height: 5rem;
+}
+
+.food-price-content {
+    padding: 0.625rem 1rem 0 6.25rem;
+}
+
+.food-price-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-item-title {
+    color: $white;
+    font-size: 1.38rem;
+}
+
+
+.food-item-line {
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid $white;
+    flex: 1;
+    margin-top: 0.625rem;
+    margin: 0 0.625rem;
+    position: relative;
+    bottom: -1rem;
+    opacity: 0.7;
+}
+
+.food-item-price {
+    color: $white;
+    font-size: 1.38rem;
+    font-weight: 400;
+}
+
+.food-item-desc {
+    color: $white;
+}

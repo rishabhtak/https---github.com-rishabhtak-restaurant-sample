@@ -1,0 +1,26 @@
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 16px 0;
+    color: $white;
+    background-color: transparent;
+    border: 1px solid $white;
+    outline: none;
+    color-scheme: dark;
+}
+
+
+
+::placeholder {
+    color: $white;
+    opacity: 1;
+}
+
+input[type=text]:focus {
+    border: 1px solid $light-french-beige;
+}
+
+input[type=date]:focus {
+    border: 1px solid $light-french-beige;
+}

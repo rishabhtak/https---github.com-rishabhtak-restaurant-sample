@@ -1,0 +1,31 @@
+.contact-form-img {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+
+.contact-form textarea {
+    color: $white;
+    width: 100%;
+    padding: 1rem;
+    margin: 16px 0;
+    background-color: transparent;
+    border: 1px solid $white;
+    outline: none;
+    color-scheme: dark;
+}
+
+.contact-form button {
+    padding: 0.8rem 2rem;
+    background-color: transparent;
+    border: 1px solid $white;
+    transition: all 0.8s;
+
+    a {
+        color: $white !important;
+    }
+}
+
+.contact-form button:hover {
+    background-color: $light-french-beige;
+}

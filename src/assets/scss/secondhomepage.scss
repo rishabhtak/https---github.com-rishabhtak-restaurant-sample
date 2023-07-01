@@ -1,0 +1,47 @@
+.homepage-img {
+    height: 80vh;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.breadcrumb-title,
+.breadcrumb-container {
+    position: absolute;
+    z-index: 1;
+    text-transform: capitalize;
+}
+
+.breadcrumb-title {
+    top: 40%;
+    color: $white;
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
+
+.breadcrumb-container {
+    margin-top: 1rem;
+    top: 50%;
+
+    li span {
+        color: $light-french-beige;
+        font-weight: 500;
+
+    }
+
+}
+
+.breadcrumb-item {
+    font-size: 1.3rem;
+
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: $white !important;
+    float: none;
+    font-size: 1.3rem;
+}

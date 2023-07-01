@@ -1,0 +1,61 @@
+.card-blog {
+    width: 100%;
+}
+
+.card-blog-img {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card-blog-img img {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-blog-date {
+    background-color: $light-french-beige;
+    color: $white;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 1rem;
+    top: 1rem;
+}
+
+.card-blog:hover .card-blog-img img {
+    transform: scale(1.1);
+
+}
+
+.blog-card-content {
+    background-color: $vampire-black;
+    color: $white;
+    padding: 2rem;
+
+}
+
+.blog-card-meta {
+    color: $white;
+}
+
+.blog-card-meta i {
+    color: $light-french-beige;
+}
+
+.blog-card-meta span{
+    margin: 0.5rem;
+}
+
+.blog-card-title {
+    margin-top: 1.5rem;
+    
+
+}
+
+.blog-card-info {
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+
+}
+

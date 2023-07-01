@@ -1,0 +1,107 @@
+@import "./Home/index.scss";
+@import "./Menu/index.scss";
+@import "./AboutUs/index.scss";
+@import "./ContactUs/index.scss";
+@import "navbar";
+@import "button";
+@import "menu";
+//@import "video";
+@import "blog";
+@import "secondhomepage";
+@import "counters";
+@import "variables";
+@import "footer";
+@import "review";
+
+.nav-link {
+    color: white !important;
+    text-decoration: none;
+    transition: all 0.8s;
+    font-weight: 500;
+}
+
+.icon-transition {
+    transition: all 0.8s;
+}
+
+.icon-transition:hover {
+    color: #c6a87d !important;
+
+}
+
+.nav-link:hover {
+    color: #c6a87d !important;
+
+}
+
+.navbar-collapse button {
+    transition: all 0.8s;
+
+    span:hover {
+        color: $white;
+
+    }
+
+}
+
+
+.section {
+    padding: 3rem;
+}
+
+.section-title-style {
+    margin-bottom: 30px;
+}
+
+.section-title-style .section-sub-title {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: $light-french-beige;
+    padding: 0;
+    margin: 0 0 5px;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+}
+
+.section-title-style .section-title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    z-index: 9;
+    padding: 0;
+    margin: 0 0;
+    text-transform: capitalize;
+    position: relative;
+    display: block;
+    color: $white;
+}
+
+.m-top {
+    margin-top: 5rem;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background: $white;
+    color: $white;
+    content: "";
+    top: 50%;
+    transition: 0.8s;
+    margin-bottom: 1rem;
+}
+
+.scroll-to-top {
+    background-color: beige !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    width: 45px !important;
+    height: 45px !important;
+}
+
+
+@import "responsive";

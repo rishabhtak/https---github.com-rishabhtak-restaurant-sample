@@ -1,0 +1,29 @@
+.counter {
+    margin-bottom: 1rem;
+
+}
+
+.counter img {
+    float: left;
+}
+
+.counter-content {
+    color: $white;
+    display: inline-block;
+}
+
+.counter-content .count-up {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 6px;
+}
+
+.counter-content h5 {
+    margin-left: 10px;
+    text-transform: capitalize;
+
+}
+
+.filter-color {
+    filter: invert(72%) sepia(8%) saturate(1442%) hue-rotate(358deg) brightness(86%) contrast(90%);
+}

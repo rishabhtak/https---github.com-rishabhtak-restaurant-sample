@@ -1,0 +1,51 @@
+.carousel-inner-img{
+  height: 120vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat
+}
+
+@mixin animation-bottomToTop($delay) {
+  opacity: 0;
+  -webkit-animation-duration: 1.25s;
+  animation-duration: 1.25s;
+  animation-name: bottomToTop;
+  animation-fill-mode: forwards;
+  animation-delay: $delay;
+}
+
+.home-slider-text {
+  width: 90%;
+  margin: auto;
+}
+
+
+.home-slider-text h1 {
+  font-size: 4.3rem;
+  @include animation-bottomToTop(0.5s);
+
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+  @include animation-bottomToTop(1.25s);
+}
+
+.carousel-caption button {
+  margin-bottom: 3.75rem;
+  @include animation-bottomToTop(1.50s);
+}
+
+@keyframes bottomToTop {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0)
+  }
+
+  to {
+    opacity: 1;
+    transform: none
+  }
+
+}
