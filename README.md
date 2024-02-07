@@ -1,3 +1,22 @@
+# Restaurant Website Reactjs Project
+
+Built with the Reactjs 18
+
+![Project Image](https://github.com/rishabhtak/restaurant-sample/blob/main/public/restaurant-image.png)
+
+## Features
+
+- Complete built in Reactjs 18
+- Beautiful landing page
+- Added Image carousel using react-multi-carousel npm package
+- Added Counters using react-countup npm package
+- Added Scroll to top using react-scroll-to-top npm package
+- Added Custom scss styles
+- Added Review carousel
+- Added Some beautiful styles
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +24,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+For install node modules
 
 ### `npm start`
 
